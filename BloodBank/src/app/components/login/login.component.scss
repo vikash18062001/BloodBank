@@ -1,0 +1,40 @@
+section {
+    #backgroundImg {
+        padding: 0 !important;
+        > img{
+        height: 100vh;
+        width: 100%;
+        }
+    }
+
+    .right-side{
+        background: linear-gradient(45deg, #364460, #6c4040);
+        color: white;
+
+    }
+
+    .floating-input {
+        color:black;
+    }
+
+    .login-form{
+        width: 100%;
+    }
+
+    .register-link {
+        color: yellow;
+        cursor: pointer;
+    }
+
+    .login-btn {
+        border-radius: 1rem;
+        background-color: #afe398;
+        min-width: 6rem;
+        border: none;
+    }
+
+    .under-line{
+        border-top: 1.5px solid white;
+        width: 4rem;
+    }
+}

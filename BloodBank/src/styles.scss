@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+
+body{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+}
+
+.row
+{
+    --bs-gutter-x: 0rem !important;
+}
